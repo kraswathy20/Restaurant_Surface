@@ -1,0 +1,74 @@
+React 
+-----
+
+npx create-react-app appName  -  To create an app
+
+npm start                    -  to run an app
+
+Building blocks of React
+------------------------
+
+html   - to load content
+css    - to style
+js     - to make the app dynamic
+
+Angular(not developer friendly)  |            React(developer friendly)
+-------                          |            -----
+- Framework of javascript        |           - library of javascript
+- real DOM                       |           - Virtual DOM(imaginary dom)
+ (physical DOM present)                          (Dom is present but it is imaginary )
+ Re-run the entire DOM                            Re-run only the updated component or section only
+ Thus More runtime required                       less runtime 
+ slower                                      - Faster 
+                                             - Next.js framework of react
+
+Advantages of React
+-------------------
+1. It uses Virtual DOM (faster)
+2. reusable components
+3. jsx is used as the coding language (Javascript xml)
+4. fast and flexible                                             
+
+
+components in React (rfce)
+-------------------
+
+1. class based -  statefull
+2. function based -stateless (as it was stateless data cannot be stored and thus cannot used to build projects)
+
+components are of 2 types -- 
+statefull components  - component which conatin states.
+stateless components  - component which does not contain state.
+
+react updated and introduced hooks
+
+React Hooks - used to create states inside function based components.
+there are different types of hooks in react. One among them is to create states.
+
+state
+------
+object used to store data inside a component in react
+
+
+useState - hook used to create state      library - react
+
+props          (properties)
+-----
+To share data from parent to child components.
+destructuring - a new feature introduced in react to avoid using props.
+
+API call in javascript
+----------------------
+
+Ajax
+----
+
+-XmlHttp
+-fetch
+-async and await
+
+first working hook of a component
+---------------------------------
+useEffect  - react 
+
+
