@@ -71,4 +71,12 @@ first working hook of a component
 ---------------------------------
 useEffect  - react 
 
+Redirection /Routing  in react
+------------------------------
 
+react-router-dom -   library used for routing to another page in react
+
+component inside this library used for Routing:-
+Browser Router - wraps the main component inside browser router component
+Route          - wraps the component inside Route which need direction 
+Routes         - wraps the Router if we set more than one component path
