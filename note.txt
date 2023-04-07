@@ -80,3 +80,12 @@ component inside this library used for Routing:-
 Browser Router - wraps the main component inside browser router component
 Route          - wraps the component inside Route which need direction 
 Routes         - wraps the Router if we set more than one component path
+
+Link  - a component in react-router-dom used for Redirection.
+
+useParams - hook in react-router-dom used to access params
+
+Variable are used for direct used data , not any complicated data. 
+
+STATES are created when we want to store data related to api calls n all.variables are defined first and
+later only data is updated in such case STATES  are used.collection or array
